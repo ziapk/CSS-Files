@@ -41,7 +41,28 @@ scss file for school profile
         .ya-article .ya-main:first-child {
             margin-left: 0;
         }
-
+.help-inline,
+.ya-page-title,
+.ya-title{
+	position:relative;
+}
+.ya-title .ya-help-icon:hover,
+.ya-title .ya-help-icon{
+	right:0;
+	left:auto;
+	top:0;
+	bottom:auto;
+	font-size:20px;
+	margin-right:0.4em;
+}
+.help-inline .ya-help-icon:hover,
+.help-inline  .ya-help-icon,
+.ya-page-title .ya-help-icon:hover,
+.ya-page-title .ya-help-icon{
+	position:static;
+	font-size:20px;
+	margin-right:0.4em;
+}
 @media (max-width: 979px) {
     .ya-article .ya-main {
         float: left;
@@ -603,6 +624,9 @@ body {
     max-width: 1170px;
     min-width: 940px;
 }
+.container-fluid{
+	padding:0;
+}
 
 .ya-pageheader {
     padding: 28px 0 0;
@@ -689,10 +713,13 @@ body {
     }
 
 .ya-main-content {
-    padding-top: 40px;
 	padding-bottom: 20px;
+	padding-top:20px;
 }
 
+div.multi-step{
+    margin-top: 20px;
+}
 .ya-footer-top {
     background-color: #b63310;
     background-image: -moz-linear-gradient(top, #cb4810, #971512);
@@ -727,6 +754,7 @@ body {
     .ya-main-content {
         padding: 0;
     }
+	
 }
 
 @media (max-width: 767px) {
@@ -734,7 +762,7 @@ body {
         padding: 0;
     }
 	.ya-main-content {
-        padding: 0 20px;
+        padding: 0;
     }
     .ya-pageheader {
         padding-top: 0;
@@ -781,6 +809,9 @@ body {
     .ya-footer-bottom .divider {
         display: none;
     }
+	.container-fluid{
+		padding:0 15px;
+	}
 
 
 }
