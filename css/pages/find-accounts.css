@@ -1,0 +1,38 @@
+/* ####################################################
+SCSS file for Staff Find Accounts
+###################################################
+*/
+/* line 18, ../../css-src/pages/find-accounts.scss */
+.ya-staff-find-accounts .btn-large span[data-icon] {
+  font-size: 24px;
+  top: 2px;
+}
+/* line 24, ../../css-src/pages/find-accounts.scss */
+.ya-staff-find-accounts input[type="text"] {
+  width: 92%;
+}
+/* line 27, ../../css-src/pages/find-accounts.scss */
+.ya-staff-find-accounts select {
+  width: 100%;
+}
+/* line 31, ../../css-src/pages/find-accounts.scss */
+.ya-staff-find-accounts .nav-tabs {
+  margin: 30px 0;
+}
+/* line 34, ../../css-src/pages/find-accounts.scss */
+.ya-staff-find-accounts .nav-tabs li {
+  width: 25%;
+  text-align: center;
+}
+/* line 37, ../../css-src/pages/find-accounts.scss */
+.ya-staff-find-accounts .nav-tabs li a {
+  font-size: 20px;
+}
+/* line 43, ../../css-src/pages/find-accounts.scss */
+.ya-staff-find-accounts .ya-button-column {
+  padding-top: 15px;
+}
+/* line 46, ../../css-src/pages/find-accounts.scss */
+.ya-staff-find-accounts .ya-button-column button {
+  margin-bottom: 20px;
+}
