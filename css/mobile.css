@@ -1,0 +1,66 @@
+/* Mobile */
+
+@media handheld, only screen and (max-width:1180px) {
+.yas-logo								{ padding:0 0 0 15px;}
+}
+
+@media handheld, only screen and (max-width: 980px) {
+#yas-dnncontent,
+#yas-footer								{ padding:0 20px}
+#yas-dnncontent .yas-dnnrow .yas-marginlr{ background:#fff; margin:0 15px; min-height:200px; padding:20px 12px}
+.yas-dnnrow 							{ min-width:720px;}
+.yas-FAPane								{ width:32%;}
+}
+
+@media handheld, only screen and (max-width: 860px) {
+h2.yas-slogan							{ color:#951919; font-size:24px; font-weight:normal; padding:24px 0 0; line-height:1em;}
+h2.yas-slogan span						{ display:block}
+
+}
+
+@media handheld, only screen and (max-width: 767px) {
+#Body									{ margin:0px; padding:0px}
+.fleft, .fright							{ float: none}
+.yas-logo								{ float:left;width:auto}
+.yas-dnnrow, body, .container 			{ width: 100%;min-width:0px;margin-left: 0px;margin-right: 0px;padding-left: 0px;padding-right: 0px;}
+#yas-dnncontent,
+#yas-footer								{ padding:0px}
+#yas-dnncontent .yas-dnnrow .yas-marginlr{ margin:0px; min-height:1px; padding:0 20px}
+h2.yas-slogan span						{ display: inline}
+h2.yas-slogan							{ text-align:center; margin:0px; padding:10px 0;}
+.yas-HeadPane							{ display:none}
+div.userProperties						{ float:right;min-width:240px; width:auto}
+div.userProperties ul li.userRegister,
+div.userProperties ul li.userLogin		{ margin-top:30px}
+
+div.userProperties ul li.userProfile	{ float:left; width:75px}
+#yas-header								{ min-height:1px;padding:0px}
+
+.yas-FAPane								{width: auto;margin: 0px;padding:0 0 40px; clear:both}
+.yas-FBPane,.yas-FCPane,.yas-FDPane		{ width:33%; float:left}
+.yas-footerlogo							{ text-align: center; padding:0px}
+.yas-marginlr							{ padding: 0 20px}
+#yas-footer .yas-dnnrow					{ background:#e6e6de; padding:20px 0;-webkit-border-radius: 0 0 0px 0px;-moz-border-radius:0 0 0px 0px;border-radius:0 0 0px 0px}
+
+
+a#btnnavFadein							{ display: block;height:30px; background:url(../images/menu.png) 10px center no-repeat #971714; line-height:30px; font-size:14px; color:#fff; 
+										  text-decoration:none; padding:0 10px 0 30px;text-transform:uppercase; position:absolute; right:20px; top:0px; z-index:1000}
+#btnFadeout,a#btnnavFadeout				{ display:block; position:absolute;}
+.yas-pophead							{ background:#dc5d2c; height:40px; padding:0 10px; display:block;margin-bottom:0px; position:relative; border-top:1px #000 solid}
+.yas-pophead h4							{ color:#fff; text-shadow:#000 1px 1px 1px; text-align:center; line-height:40px; margin:0px; padding:0px}
+.yas-pophead a:link,
+.yas-pophead a:active,
+.yas-pophead a:visited					{ display:block; color:#fff; text-decoration:none; line-height:38px; padding:0px; margin:0px; width:50px; background:url(../images/pophead.png) 0 0px no-repeat; padding-left:8px; text-shadow:#111 0px 0px 1px; font-size:12px; font-weight:bold}
+#yas-dnnmenu							{ margin:0px; padding:0px;width:100%;height:100%;background:#fff; position:absolute; bottom:0px; display:none; left:0px; z-index:10000; float:none; position:fixed; padding:0px; overflow:auto}
+
+}
+@media handheld, only screen and (max-width: 480px){
+.yas-logo								{ float: none; text-align:center; width:auto; margin-bottom:15px; padding:0px}
+.yas-FBPane,.yas-FCPane,.yas-FDPane		{ width: auto; float: none; clear:both}
+div.userProperties ul li.userRegister,
+div.userProperties ul li.userLogin		{ margin-top:0px}
+div.userProperties						{ margin:0 auto;display:table; width:auto; margin-bottom:15px; clear:both; float:none;}
+}
+@media handheld, only screen and (max-width: 360px){
+}
+
